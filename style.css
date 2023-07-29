@@ -1,0 +1,86 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v35-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v35-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+ul,
+ol {
+  list-style: none;
+}
+.container {
+  width: 100%;
+  max-width: 1224px;
+  padding: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  background: #202842;
+}
+.container__list{
+  display: flex;
+  justify-content: space-between;
+}
+.container__item {
+  width: 100%;
+  max-width: 360px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.container__item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.container__item h3 {
+  color: #009af0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+  margin-bottom: 8px;
+}
+.container__item p{
+  margin-bottom: 16px;
+  color: #1e1e1e;
+  letter-spacing: 0.192px;
+}
+.container__item a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.192px;
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 8px;
+  background: #009af0;
+}
